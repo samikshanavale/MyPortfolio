@@ -4,11 +4,11 @@ import WaveDivider from './WaveDivider';
 export default function Education() {
   const education = [
     {
-      degree: 'Diploma in Information Technology - 96.06%',
-      institution: 'Government Polytechnic Kolhapur',
-      period: '2021 - 2024',
-      description: 'Focused on software engineering, algorithms, and web development.',
-      icon: GraduationCap,
+      degree: 'Honour in AR/VR Technology - 10 CGPA',
+      institution: 'Veermata Jijabai Technological Institute, Mumbai',
+      period: '2024-2027',
+      description: 'Specializing in Augmented and Virtual Reality, developing immersive experiences using Unity, 3D modeling, and interactive environment design.',
+      icon: Award,
     },
     {
       degree: 'Bachelor of Technology in Information Technology - 8.3 CGPA',
@@ -18,11 +18,11 @@ export default function Education() {
       icon: BookOpen,
     },
     {
-      degree: 'Honour in AR/VR Technology - 10 CGPA',
-      institution: 'Veermata Jijabai Technological Institute, Mumbai',
-      period: '2024-2027',
-      description: 'Specializing in Augmented and Virtual Reality, developing immersive experiences using Unity, 3D modeling, and interactive environment design.',
-      icon: Award,
+      degree: 'Diploma in Information Technology - 96.06%',
+      institution: 'Government Polytechnic Kolhapur',
+      period: '2021 - 2024',
+      description: 'Focused on software engineering, algorithms, and web development.',
+      icon: GraduationCap,
     },
   ];
 
