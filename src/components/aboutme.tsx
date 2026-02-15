@@ -36,7 +36,7 @@ export default function Projects() {
 <div className="flex justify-center">
   <div className="relative group">
     <img
-      src="src/img/me.png"
+      src="img/me.png"
       alt="Samiksha"
       className="w-70 md:w-74 rounded-3xl shadow-2xl object-cover transition duration-500 group-hover:scale-105"
     />
@@ -48,19 +48,19 @@ export default function Projects() {
   <h2 className="skills-title">Skills:</h2>
 
   <div className="skills-canvas">
-    <img src="src/img/skills/blender.png" className="skill s1"/>
-    <img src="src/img/skills/unity.png" className="skill s2"/>
-    <img src="src/img/skills/vscode.png" className="skill s3"/>
-    <img src="src/img/skills/figma.png" className="skill s4"/>
-    <img src="src/img/skills/react.png" className="skill s5"/>
-    <img src="src/img/skills/java.png" className="skill s6"/>
-    <img src="src/img/skills/mysql.png" className="skill s7"/>
-    <img src="src/img/skills/csharp.png" className="skill s8"/>
-    <img src="src/img/skills/canva.png" className="skill s9"/>
-    <img src="src/img/skills/androidStudio.png" className="skill s10"/>
-    <img src="src/img/skills/django.jpg" className="skill s11"/>
-    <img src="src/img/skills/htmlcss.png" className="skill s12"/>
-    <img src="src/img/skills/selenium.png" className="skill s13"/>
+    <img src="img/skills/blender.png" className="skill s1"/>
+    <img src="img/skills/unity.png" className="skill s2"/>
+    <img src="img/skills/vscode.png" className="skill s3"/>
+    <img src="img/skills/figma.png" className="skill s4"/>
+    <img src="img/skills/react.png" className="skill s5"/>
+    <img src="img/skills/java.png" className="skill s6"/>
+    <img src="img/skills/mysql.png" className="skill s7"/>
+    <img src="img/skills/csharp.png" className="skill s8"/>
+    <img src="img/skills/canva.png" className="skill s9"/>
+    <img src="img/skills/androidStudio.png" className="skill s10"/>
+    <img src="img/skills/django.jpg" className="skill s11"/>
+    <img src="img/skills/htmlcss.png" className="skill s12"/>
+    <img src="img/skills/selenium.png" className="skill s13"/>
 
 
 
