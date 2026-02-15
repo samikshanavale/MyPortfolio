@@ -7,28 +7,28 @@ export default function Projects() {
       title: 'Swachh Merch Design',
       description: 'Designed tote bags and official merchandise, developing impactful visuals that enhanced the committee’s branding.',
       image: `${import.meta.env.BASE_URL}img/projs/merch.png`,      tags: ['Canva', 'Branding', 'Merchandise Design'],
-      github: '',
+      github: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
       demo: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
     },
     {
       title: 'Virtual Classroom',
       description: 'Built a 3D replica of our classroom in Unity, recreating the environment with accurate layout, objects, and basic scene interaction.',
       image: `${import.meta.env.BASE_URL}img/projs/classroom.jpg`,      tags: ['Unity', 'Blender', 'Virtual Reality', 'Interactive Design'],
-      github: '',
+      github: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
       demo: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
     },
     {
       title: 'popARt',
       description: 'Developed an AR experience where scanning a specific image triggers a corresponding 3D model to appear, demonstrating image tracking and real-time object placement.',
       image: `${import.meta.env.BASE_URL}img/projs/popart.jpg`,      tags: ['Unity', 'Blender', 'Augmented Reality'],
-      github: '',
+      github: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
       demo: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
     },
     {
       title: 'Baymax - Big Hero 6',
       description: 'Created a 3D Baymax character model in Blender, using modeling and sculpting techniques to achieve a smooth and detailed design.',
       image: `${import.meta.env.BASE_URL}img/projs/baymax2.png`,      tags: ['Blender', '3D Modeling', 'Sculpting'],
-      github: '',
+      github: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
       demo: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
     },
     {
@@ -43,7 +43,7 @@ image: `${import.meta.env.BASE_URL}img/projs/vjtiolx.png`,      tags: ['React', 
       description: 'Recipe website using Django, allowing users to view and manage recipes through a clean and user-friendly interface.',
       image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['Django', 'Mysql', 'Python'],
-      github: '',
+      github: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
       demo: 'https://hot-playroom-950.notion.site/UNDER-PROCESS-Projects-bca720f0f979829896cc81dceb77caec?pvs=143',
     },
   ];
@@ -90,6 +90,7 @@ image: `${import.meta.env.BASE_URL}img/projs/vjtiolx.png`,      tags: ['React', 
                   <div className="flex gap-4">
                     <a
                       href={project.github}
+                      target="_blank"
                       className="flex items-center gap-2 text-gray-600 hover:text-purple-600 transition"
                     >
                       <Github size={18} />
@@ -97,6 +98,7 @@ image: `${import.meta.env.BASE_URL}img/projs/vjtiolx.png`,      tags: ['React', 
                     </a>
                     <a
                       href={project.demo}
+                      target="_blank"
                       className="flex items-center gap-2 text-gray-600 hover:text-pink-600 transition"
                     >
                       <ExternalLink size={18} />
