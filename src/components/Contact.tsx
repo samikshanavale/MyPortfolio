@@ -48,8 +48,7 @@ className="bg-amber-100 pt-32 pb-0 relative"
 
 <div className="max-w-6xl mx-auto w-full">
     <img
-  src="img/contact.png"
-  alt="contact me"
+src={`${import.meta.env.BASE_URL}img/contact.png`}  alt="contact me"
   className="w-full h-auto block"
  />
 

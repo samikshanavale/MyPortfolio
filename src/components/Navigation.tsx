@@ -2,11 +2,11 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const navItems = [
-  { id: 'about', label: 'About', icon: 'icons/aboutme.png' },
-  { id: 'education', label: 'Education', icon: 'icons/education.png' },
-  { id: 'experience', label: 'Experience', icon: 'icons/experience.png' },
-  { id: 'projects', label: 'Projects', icon: 'icons/projects.png' },
-  { id: 'contact', label: 'Contact', icon: 'icons/contact.png' },
+  { id: 'about', label: 'About', icon: `${import.meta.env.BASE_URL}icons/aboutme.png` },
+  { id: 'education', label: 'Education', icon: `${import.meta.env.BASE_URL}icons/education.png` },
+  { id: 'experience', label: 'Experience', icon: `${import.meta.env.BASE_URL}icons/experience.png` },
+  { id: 'projects', label: 'Projects', icon: `${import.meta.env.BASE_URL}icons/projects.png` },
+  { id: 'contact', label: 'Contact', icon: `${import.meta.env.BASE_URL}icons/contact.png` },
 ];
 
 
